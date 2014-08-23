@@ -24,6 +24,9 @@ public class MyActivity extends Activity {
 
         toast.show();
 
+        text = "Good times!";
+        toast = Toast.makeText(context, text, toast_duration);
+        toast.show();
     }
 
 
